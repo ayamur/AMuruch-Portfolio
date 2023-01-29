@@ -5,9 +5,11 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 import Resume from './pages/Resume'
 import Projects from './pages/Projects'
+import NavBar from './components/NavBar';
 
 function App() {
   return (
+    <NavBar>
     <Routes>
       <Route
         path='about'
@@ -22,6 +24,7 @@ function App() {
       <Route path='resume'
         element={<Resume />} />
     </Routes>
+    </NavBar>
   );
 }
 
