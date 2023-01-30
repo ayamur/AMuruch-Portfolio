@@ -41,3 +41,7 @@ body {
   background-color: #170a26;
   color: #7ab3b1;
 }
+
+img {
+  max-width: 30%;
+}
