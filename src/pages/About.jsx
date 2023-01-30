@@ -1,3 +1,4 @@
+
 function About() {
   return (
     <>
@@ -16,5 +17,6 @@ My biggest goal is to continue to pursue my own career path in the field of tech
     </>
   )
 }
+
 
 export default About

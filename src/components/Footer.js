@@ -1,14 +1,13 @@
-function Footer() {
+function Footer(props) {
   return (
-    <div>
+    <div id="footer">
       <>
     <h1>Ayala Murúch</h1>
     <h2>Software Engineer</h2>
-    <img id='home' src='dogexe.png' alt="placeholder" />
     <h6>Made with 🧠 + 🫀 + 🩸 + 🥲 + ⛤ by <a href="https://github.com/ayamur">Ayala Murúch</a></h6>
-    <div>
+    <p id="familymotto">
     Libenter animos illorum qui nos frenare conentur devoramus.
-    </div>
+    </p>
     </>
     </div>
   )
