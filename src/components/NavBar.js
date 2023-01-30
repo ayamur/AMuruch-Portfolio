@@ -3,31 +3,33 @@ import { Link } from "react-router-dom";
 function NavBar() {
   return (
     <nav>
-      <Link to='/'>
-        logo img/signature here ---
-        Ayala Murúch
-      </Link>
       <ul>
-        <li>
-          <Link to='/about'>
+        <Link to='/'>
+          <button type='button' id='homebtn' className='navbarbtn'>
+            logo img/signature here ---
+            Ayala Murúch
+          </button>
+        </Link>
+        <Link to='/about'>
+          <button type='button' id='aboutbtn' className='navbarbtn'>
             About
-          </Link>
-        </li>
-        <li>
-          <Link to='/contact'>
+          </button>
+        </Link>
+        <Link to='/contact'>
+          <button type='button' id='contactbtn' className='navbarbtn'>
             Contact
-          </Link>
-        </li>
-        <li>
-          <Link to='/projects'>
+          </button>
+        </Link>
+        <Link to='/projects'>
+          <button type='button' id='projectsbtn' className='navbarbtn'>
             Projects
-          </Link>
-        </li>
-        <li>
-          <Link to='/resume'>
+          </button>
+        </Link>
+        <Link to='/resume'>
+          <button type='button' id='resumebtn' className='navbarbtn'>
             Resume
-          </Link>
-        </li>
+          </button>
+        </Link>
       </ul>
     </nav>
   )
