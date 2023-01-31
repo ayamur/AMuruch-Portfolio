@@ -14,7 +14,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -38,8 +37,9 @@
 }
 
 body {
-  background-color: #170a26;
   color: #7ab3b1;
+  background-image: url('/public/dogexe.png');
+  background-repeat: repeat;
 }
 
 img {

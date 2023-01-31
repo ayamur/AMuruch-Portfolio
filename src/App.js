@@ -13,24 +13,23 @@ function App() {
     <>
       <NavBar />
       <Routes>
-        <Route
-          path='about'
-          element={<About />} />
-        <Route
-          path='contact'
-          element={<Contact />} />
-        <Route path='/'
-          element={<Home />} />
-        <Route path='projects'
-          element={<Projects />} />
-        <Route path='resume'
-          element={<Resume />} />
+          <Route
+            path='about'
+            element={<About />} />
+          <Route
+            path='contact'
+            element={<Contact />} />
+          <Route path='/'
+            element={<Home />} />
+          <Route path='projects'
+            element={<Projects />} />
+          <Route path='resume'
+            element={<Resume />} />
       </Routes>
       <Footer />
     </>
   );
 }
-
 
 
 export default App;
