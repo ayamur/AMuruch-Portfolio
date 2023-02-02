@@ -66,7 +66,7 @@ button {
   --glow-color: rgb(55, 58, 250);
   --glow-spread-color: rgba(58, 67, 254, 0.781);
   --enhanced-glow-color: rgb(25, 0, 250);
-  --btn-color: rgb(255, 255, 255);
+  --btn-color: rgb(0, 0, 0);
   border: .25em solid var(--glow-color);
   color: var(--glow-color);
   font-size: 2vmax;
@@ -124,10 +124,12 @@ button:active {
 
 #signature {
   max-width: 12vw;
+  padding-left: 15px;
+  padding-top: 15px;
 }
 
 #sigbtn {
-justify-content: center;
+  justify-content: center;
 }
 
 ul {
@@ -143,6 +145,10 @@ ul {
   padding: 10px;
   margin: 10px;
 
+}
+
+#githublogo {
+  width: 40vw;
 }
 
 .contacticons {
@@ -179,24 +185,24 @@ ul {
 }
 
 h1 {
-  font-size: 6.5vw;
+  font-size: 5vw;
   text-shadow: 0 0 5px #0066ff, 0 0 15px #1100ff, 0 0 20px #6200ff, 0 0 40px #9900ff, 0 0 60px #2600ff, 0 0 10px #6f00ff, 0 0 98px #2600ff;
-    color: #6380ff;
+  color: #6380ff;
   text-align: center;
 }
 
 a {
-color: #00c3ff;
+  color: #00c3ff;
 }
 
 a:hover {
-color: #ffffff;
+  color: #ffffff;
 }
 
 a:link {
-color: #1100ff;
+  color: #1100ff;
 }
 
 a:visited {
-color: #1100ff;
+  color: #1100ff;
 }
