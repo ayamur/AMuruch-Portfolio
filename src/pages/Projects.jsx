@@ -1,26 +1,18 @@
-import { projectsData } from "../data/Projects"
+import ProjectPreview from '../components/ProjectPreview/ProjectPreview'
+import projects from '../data/projects'
 
 const Projects = () => {
   return (
     <>
-      <h1>Projects Page!</h1>
-      {projectsData.length ?
-        <>
-          {projectsData.map((project, idx) =>
-            <div key={idx}>
-              <ul>
-                <li>{project.title}</li>
-              </ul>
-            </div>
-          )}
-        </>
-        :
-        <>
-          <h3>Loading Projects List Momentarily!</h3>
-        </>
-      }
+      <h2>PROJECT PREVIEW!</h2>
+
+      {/* {projects.map((projects) =>
+        <ProjectPreview key={ProjectPreview.idx}
+          projects={projects} />
+      )} */}
     </>
-  );
+  )
 }
 
 export default Projects
+
