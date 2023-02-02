@@ -4,7 +4,7 @@ function NavBar() {
   return (
     <nav>
       <div id="sig">
-          <button type='button' id='sigbtn' class=''>
+          <button type='button' id='sigbtn'>
         <Link to='/'>
           <img src='signature.png' id='signature' alt='ayala signature icon' />
       </Link>
