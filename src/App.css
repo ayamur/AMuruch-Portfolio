@@ -1,7 +1,3 @@
-/* font-family: 'Exo 2', sans-serif;
-font-family: 'Michroma', sans-serif;
-font-family: 'Special Elite', cursive; */
-
 .App {
   text-align: center;
 }
@@ -21,47 +17,81 @@ font-family: 'Special Elite', cursive; */
 }
 
 body {
-  color: #7ab3b1;
+  color: #ffffff;
+  border: white 1px dotted;
+  text-shadow: -1px 1px 2px rgb(0, 0, 0),
+    1px 1px 1px rgb(0, 0, 0),
+    1px -1px 0 rgb(0, 0, 0),
+    -1px -1px 0 rgb(0, 0, 0);
   background-image: url('/public/jellyfish-4923658_1920.jpg');
   font-family: 'Michroma', sans-serif;
   justify-items: center;
   align-items: center;
   text-align: center;
+  padding: 10px;
+  margin: 5px;
 }
 
 #itsame {
-  max-width: 50vw;
-  border-radius: 15%;
+  max-width: 25vw;
   justify-content: center;
+  --glow-color: rgb(55, 58, 250);
+  --glow-spread-color: rgba(58, 67, 254, 0.781);
+  --enhanced-glow-color: rgb(25, 0, 250);
+  border: .25em solid var(--glow-color);
+  color: var(--glow-color);
+  background-color: var(--btn-color);
+  border-radius: 33%;
+  box-shadow: 0 0 1em .25em var(--glow-color),
+    0 0 4em 1em var(--glow-spread-color),
+    inset 0 0 .75em .25em var(--glow-color);
+  transition: all 0.3s;
+}
+
+#itsame:hover {
+  max-width: 35vw;
+  background-color: var(--glow-color);
+  box-shadow: 0 0 1em .25em var(--glow-color),
+    0 0 4em 2em var(--glow-spread-color),
+    inset 0 0 .75em .25em var(--glow-color);
 }
 
 nav {
   display: flex;
-  flex-direction: row;
-
+  justify-content: space-between;
 }
 
 button {
-  max-width: 15vw;
+  min-width: 15vw;
   --glow-color: rgb(55, 58, 250);
   --glow-spread-color: rgba(58, 67, 254, 0.781);
   --enhanced-glow-color: rgb(25, 0, 250);
-  --btn-color: rgb(3, 1, 23);
+  --btn-color: rgb(255, 255, 255);
   border: .25em solid var(--glow-color);
-  padding: 1em 3em;
   color: var(--glow-color);
   font-size: 2vmax;
   font-family: 'Michroma', sans-serif;
   font-weight: bold;
   background-color: var(--btn-color);
   border-radius: 33%;
-  justify-content: center;
   outline: none;
   box-shadow: 0 0 1em .25em var(--glow-color),
     0 0 4em 1em var(--glow-spread-color),
     inset 0 0 .75em .25em var(--glow-color);
   text-shadow: 0 0 .5em var(--glow-color);
   transition: all 0.3s;
+}
+
+#download {
+  padding: 10px;
+  margin: 10px;
+}
+
+#downloadbtn:hover {
+  background-color: var(--glow-color);
+  box-shadow: 0 0 1em .25em var(--glow-color),
+    0 0 4em 2em var(--glow-spread-color),
+    inset 0 0 .75em .25em var(--glow-color);
 }
 
 button::after {
@@ -78,7 +108,8 @@ button::after {
 }
 
 button:hover {
-  color: var(--btn-color);
+  min-width: 20vw;
+  color: white;
   background-color: var(--glow-color);
   box-shadow: 0 0 1em .25em var(--glow-color),
     0 0 4em 2em var(--glow-spread-color),
@@ -92,5 +123,80 @@ button:active {
 }
 
 #signature {
-  max-width: 10vw;
+  max-width: 12vw;
+}
+
+#sigbtn {
+justify-content: center;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+#resume {
+  width: auto;
+  height: 425px;
+  min-width: 50vw;
+  padding: 10px;
+  margin: 10px;
+
+}
+
+.contacticons {
+  display: flex;
+  flex-direction: column;
+  max-width: 40vw;
+  margin: auto;
+  padding: 23px;
+  align-content: center;
+  --glow-color: rgb(55, 58, 250);
+  --glow-spread-color: rgba(58, 67, 254, 0.781);
+  --enhanced-glow-color: rgb(25, 0, 250);
+  border: .25em solid var(--glow-color);
+  color: var(--glow-color);
+  background-color: var(--btn-color);
+  border-radius: 50%;
+  box-shadow: 0 0 1em .25em var(--glow-color),
+    0 0 4em 1em var(--glow-spread-color),
+    inset 0 0 .75em .25em var(--glow-color);
+  transition: all 0.3s;
+}
+
+.contacticons:hover {
+  background-color: var(--glow-color);
+  box-shadow: 0 0 1em .25em var(--glow-color),
+    0 0 4em 2em var(--glow-spread-color),
+    inset 0 0 .75em .25em var(--glow-color);
+}
+
+#footer {
+  margin: 60px 0 0 0;
+  padding: 5px 0 0 0;
+  border: 1px white dotted;
+}
+
+h1 {
+  font-size: 6.5vw;
+  text-shadow: 0 0 5px #0066ff, 0 0 15px #1100ff, 0 0 20px #6200ff, 0 0 40px #9900ff, 0 0 60px #2600ff, 0 0 10px #6f00ff, 0 0 98px #2600ff;
+    color: #6380ff;
+  text-align: center;
+}
+
+a {
+color: #00c3ff;
+}
+
+a:hover {
+color: #ffffff;
+}
+
+a:link {
+color: #1100ff;
+}
+
+a:visited {
+color: #1100ff;
 }

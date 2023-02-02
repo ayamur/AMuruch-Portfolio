@@ -4,7 +4,7 @@ function NavBar() {
   return (
     <nav>
       <div id="sig">
-          <button type='button' id='sigbtn' class='navbarbtn'>
+          <button type='button' id='sigbtn' class=''>
         <Link to='/'>
           <img src='signature.png' id='signature' alt='ayala signature icon' />
       </Link>
@@ -12,7 +12,7 @@ function NavBar() {
       </div>
       <ul>
       <Link to='/about'>
-        <button type='button' id='aboutbtn' className='navbarbtn'>
+        <button type='button' id='aboutbtn' className='navbarbtn' >
           About
         </button>
       </Link>
