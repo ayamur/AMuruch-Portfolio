@@ -1,5 +1,5 @@
-import ProjectPreview from '../components/ProjectPreview/ProjectPreview'
-import projects from '../data/projects'
+// import ProjectPreview from '../components/ProjectPreview/ProjectPreview'
+// import projects from '../data/projects'
 
 const Projects = () => {
   return (

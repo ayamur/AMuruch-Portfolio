@@ -1,4 +1,4 @@
-import ProjectPreview from "./ProjectPreview/ProjectPreview"
+// import ProjectPreview from "./ProjectPreview/ProjectPreview"
 
 const ProjectsList = (props) => {
   console.log('PROPS IN THE ProjectsList', props)

@@ -1,8 +1,8 @@
 
-const ProjectPreview = (props) => {
+const ProjectPreview = () => {
   return (
     <div>
-      <h2> PROJECT PREVIEW</h2>
+      <h2>PROJECT PREVIEW</h2>
       {/* <img
         src={props.image}
         alt={props.title}
