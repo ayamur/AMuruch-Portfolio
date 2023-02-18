@@ -6,19 +6,25 @@ const ProjectDetails = () => {
   const project = findProject(projectDetails)
   return (
     <>
-      <h1>{project.title}</h1>
-      <p>{project.description}</p>
-      <img src={project.image} alt='project preview' />
-      <a href={project.repositoryLink}>
-        <button>
-          GitHub Repository
-        </button>
-      </a>
-      <a href={project.deploymentLink}>
-        <button>
-          Try the App
-        </button>
-      </a>
+      <div class='all-detail'>
+        <div class='details'>
+          <h1 class='details-title-desc'>{project.title}</h1>
+          <p class='details-title-desc'>{project.description}</p>
+          <img src={project.image} alt='project preview' class='image-details' />
+        </div>
+        <div class='btn-details-div'>
+          <a href={project.deploymentLink}>
+            <button class='btn-details'>
+              Try the App!
+            </button>
+          </a>
+          <a href={project.repositoryLink}>
+            <button class='btn-details'>
+              GitHub Link!
+            </button>
+          </a>
+        </div>
+      </div>
     </>
   )
 }

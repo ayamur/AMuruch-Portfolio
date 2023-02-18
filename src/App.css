@@ -139,12 +139,11 @@ ul {
 }
 
 #resume {
+  margin-top: 40px;
   width: auto;
   height: 425px;
   min-width: 50vw;
   padding: 10px;
-  margin: 10px;
-
 }
 
 #githublogo {
@@ -179,7 +178,7 @@ ul {
 }
 
 #footer {
-  margin: 60px 0 0 0;
+  margin: 100px 0 0 0;
   padding: 5px 0 0 0;
   border: 1px white dotted;
 }
@@ -205,4 +204,22 @@ a:link {
 
 a:visited {
   color: #1100ff;
+}
+
+.image-details {
+  width: 35vmax;
+}
+
+.btn-details-div{
+margin-top: 40px;
+margin-bottom: 40px;
+}
+
+.all-detail{
+  border: 1px white dotted;
+  margin-top: 40px;
+}
+
+.details-title-desc{
+margin-bottom: 55px;
 }
