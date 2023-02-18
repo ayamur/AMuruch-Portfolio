@@ -1,5 +1,3 @@
-// import MuruchResume.pdf from '../../public/MuruchResume.pdf';
-
 function Resume() {
   return (
     <>
