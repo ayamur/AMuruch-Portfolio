@@ -6,7 +6,7 @@ function NavBar() {
       <div id='sig'>
         <button type='button' id='sigbtn'>
           <Link to='/'>
-            <img src='signature.png' id='signature' alt='ayala signature icon' />
+            <img src='/signature.png' id='signature' alt='ayala signature icon' />
           </Link>
         </button>
       </div>

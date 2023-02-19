@@ -150,9 +150,10 @@ ul {
 .contacticons {
   display: flex;
   flex-direction: column;
-  width: 20vmax;
+  width: 15vmax;
   margin: auto;
   margin-top: 6vmax;
+  margin-bottom: 3vmax;
   padding: 23px;
   align-content: center;
   --glow-color: rgb(55, 58, 250);
@@ -223,10 +224,6 @@ a:visited {
   margin-bottom: 40px;
 }
 
-.all-detail {
-  margin-top: 40px;
-}
-
 .details-title-desc {
   margin-bottom: 55px;
 }
@@ -267,13 +264,14 @@ a:visited {
   width: 6vmax;
 }
 
-.preview {
+.preview, .details, .about, .contact-git, .contact-linked, .contact-mail {
   border: white 1px dotted;
   margin: 50px;
   padding: 25px;
 }
 
-.all-preview {
+.all-preview, .all-detail, .about-all, .contact-all {
   border: white 1px dotted;
   margin: 25px;
+  padding: 10px;
 }

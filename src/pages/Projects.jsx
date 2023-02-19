@@ -7,8 +7,8 @@ const Projects = () => {
       <div>
         <ProjectsList projects={projects} />
       </div>
-      <a href='#' class='up'>
-        <img src='jelly_up.png' alt='jellyfish with up arrow' class='jellyarrow' />
+      <a href='#' class='up' alt='jellyfish and arrow'>
+        <img src='/jelly_up.png' alt='jellyfish with up arrow' class='jellyarrow' />
       </a>
     </>
   )

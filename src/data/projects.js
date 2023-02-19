@@ -1,5 +1,12 @@
 const projects = [
   {
+    title: 'Cosmic Cue',
+    description: 'Cosmic Cue is a playful app designed to bring positivity and inspiration into your life. With Cosmic Cue, you can receive daily fun fortunes and silly signs from all over the universe to help guide you on your personal path.',
+    image: '/cc_screenshot.png',
+    repositoryLink: 'https://github.com/CCMatson/cosmic-cue-front-end',
+    deploymentLink: 'https://cosmic-cue.netlify.app/',
+  },
+  {
     title: 'MeMoMoMaMe',
     description: "MeMoMoMaMe is a small app that allows for interactions in 3 simple ways: (1.) Create, update, or delete a 'Monster Moment' (a big event or emotion) without other users knowing who you are. (2.) Read and/or reply to someone else's 'Monster Moment'. (3.) Add or remove quotes from your own profile! It's that easy!",
     image: 'https://raw.githubusercontent.com/ayamur/memomomame/main/public/assets/images/Screenshot_20230120_060604.png',
