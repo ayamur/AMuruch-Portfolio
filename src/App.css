@@ -231,6 +231,10 @@ a:visited {
   margin-bottom: 55px;
 }
 
+.project-list {
+  display: flex;
+  flex-direction: column;
+}
 
 .jellyarrow {
   width: 5vmax;
@@ -261,4 +265,15 @@ a:visited {
     0 0 4em 2em var(--glow-spread-color),
     inset 0 0 .75em 2em var(--glow-color);
   width: 6vmax;
+}
+
+.preview {
+  border: white 1px dotted;
+  margin: 50px;
+  padding: 25px;
+}
+
+.all-preview {
+  border: white 1px dotted;
+  margin: 25px;
 }

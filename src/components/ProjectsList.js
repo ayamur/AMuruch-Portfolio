@@ -3,11 +3,12 @@ import ProjectPreview from './ProjectPreview/ProjectPreview'
 const ProjectsList = (props) => {
   return (
     <>
-      <ul>
+      <div class='project-list'>
+
         {props.projects.map((project) =>
-          <ProjectPreview key={project.title} image={project.image} title={project.title} />
+          <ProjectPreview key={project.title} title={project.title} image={project.image} />
         )}
-      </ul>
+      </div>
     </>
   )
 }

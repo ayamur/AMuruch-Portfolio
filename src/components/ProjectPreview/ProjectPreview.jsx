@@ -7,8 +7,8 @@ const ProjectPreview = (props) => {
       <div class='preview'>
         <>
           <img
-            src={props.image}
             alt={props.title}
+            src={props.image}
             class='image-details'
           />
 
