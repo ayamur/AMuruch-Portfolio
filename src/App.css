@@ -263,13 +263,23 @@ a:visited {
   width: 6vmax;
 }
 
-.preview, .details, .about, .contact-git, .contact-linked, .contact-mail, .resume-pg {
+.preview,
+.details,
+.about,
+.contact-git,
+.contact-linked,
+.contact-mail,
+.resume-pg {
   border: white 1px dotted;
   margin: 50px;
   padding: 25px;
 }
 
-.all-preview, .all-detail, .about-all, .contact-all, .resume-all {
+.all-preview,
+.all-detail,
+.about-all,
+.contact-all,
+.resume-all {
   border: white 1px dotted;
   margin: 25px;
   padding: 10px;

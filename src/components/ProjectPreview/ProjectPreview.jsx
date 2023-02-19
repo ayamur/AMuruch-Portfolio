@@ -2,7 +2,9 @@ import { Link } from 'react-router-dom'
 import hyphenateWords from '../../utilities/hyphenateWords'
 
 const ProjectPreview = (props) => {
+
   return (
+
     <div class='all-preview'>
       <div class='preview'>
         <>
@@ -11,7 +13,6 @@ const ProjectPreview = (props) => {
             src={props.image}
             class='image-details'
           />
-
           <section>
             <h3>
               {props.title}
@@ -25,7 +26,9 @@ const ProjectPreview = (props) => {
         </>
       </div>
     </div>
+
   )
+
 }
 
 export default ProjectPreview

@@ -1,7 +1,9 @@
 import { Link } from 'react-router-dom'
 
 function NavBar() {
+
   return (
+
     <nav>
       <div id='sig'>
         <button type='button' id='sigbtn'>
@@ -33,7 +35,9 @@ function NavBar() {
         </Link>
       </ul>
     </nav >
+
   )
+
 }
 
 export default NavBar

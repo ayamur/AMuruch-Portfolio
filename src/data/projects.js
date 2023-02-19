@@ -1,4 +1,5 @@
 const projects = [
+
   {
     title: 'Cosmic Cue',
     description: 'Cosmic Cue is a playful app designed to bring positivity and inspiration into your life. With Cosmic Cue, you can receive daily fun fortunes and silly signs from all over the universe to help guide you on your personal path.',
@@ -27,6 +28,7 @@ const projects = [
     repositoryLink: 'https://github.com/ayamur/ttt-weekend',
     deploymentLink: 'https://aya-tic-tac-toe.netlify.app/',
   }
+
 ]
 
 export default projects

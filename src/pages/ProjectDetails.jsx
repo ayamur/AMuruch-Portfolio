@@ -2,9 +2,12 @@ import { useParams } from 'react-router-dom'
 import findProject from '../utilities/findProject'
 
 const ProjectDetails = () => {
+
   const { projectDetails } = useParams()
   const project = findProject(projectDetails)
+
   return (
+
     <>
       <div class='all-detail'>
         <div class='details'>
@@ -29,7 +32,9 @@ const ProjectDetails = () => {
         <img src='/jelly_up.png' alt='jellyfish with up arrow' class='jellyarrow' />
       </a>
     </>
+
   )
+
 }
 
 export default ProjectDetails

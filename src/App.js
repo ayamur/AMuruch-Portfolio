@@ -10,7 +10,9 @@ import Footer from './components/Footer'
 import ProjectDetails from './pages/ProjectDetails'
 
 function App() {
+
   return (
+
     <>
       <NavBar />
       <Routes>
@@ -31,7 +33,9 @@ function App() {
       </Routes>
       <Footer />
     </>
+
   )
+
 }
 
 export default App

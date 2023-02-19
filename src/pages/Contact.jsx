@@ -1,5 +1,7 @@
 function Contact() {
+
   return (
+
     <>
       <h1>Feel Free to Contact Me:</h1>
       <div class='contact-all'>
@@ -26,7 +28,9 @@ function Contact() {
         <img src='/jelly_up.png' alt='jellyfish with up arrow' class='jellyarrow' />
       </a>
     </>
+
   )
+
 }
 
 export default Contact

@@ -1,5 +1,7 @@
 function Home() {
+
   return (
+
     <>
       <div>
         <h1> Ayala Murúch </h1>
@@ -14,7 +16,9 @@ function Home() {
         <img src='/jelly_up.png' alt='jellyfish with up arrow' class='jellyarrow' />
       </a>
     </>
+
   )
+
 }
 
 export default Home

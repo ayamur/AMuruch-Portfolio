@@ -1,5 +1,7 @@
 function Resume() {
+
   return (
+
     <>
       <h1>1st Quarter 2023 Resume:</h1>
       <div class='resume-all'>
@@ -16,7 +18,9 @@ function Resume() {
         <img src='/jelly_up.png' alt='jellyfish with up arrow' class='jellyarrow' />
       </a>
     </>
+
   )
+
 }
 
 export default Resume

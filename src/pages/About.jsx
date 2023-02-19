@@ -1,5 +1,7 @@
 function About() {
+
   return (
+
     <>
       <h1>About Ayala Murúch:</h1>
       <div class='about-all'>
@@ -28,7 +30,9 @@ function About() {
         <img src='/jelly_up.png' alt='jellyfish with up arrow' class='jellyarrow' />
       </a>
     </>
+
   )
+
 }
 
 export default About

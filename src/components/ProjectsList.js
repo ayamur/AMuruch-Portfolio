@@ -1,7 +1,9 @@
 import ProjectPreview from './ProjectPreview/ProjectPreview'
 
 const ProjectsList = (props) => {
+
   return (
+
     <>
       <div class='project-list'>
 
@@ -10,7 +12,9 @@ const ProjectsList = (props) => {
         )}
       </div>
     </>
+
   )
+
 }
 
 export default ProjectsList
