@@ -14,7 +14,7 @@ function Resume() {
           <h2 id='references'>Feel Free to Request References!</h2>
         </div>
       </div>
-      <a href='#' class='up'>
+      <a href='#top' class='up'>
         <img src='/jelly_up.png' alt='jellyfish with up arrow' class='jellyarrow' />
       </a>
     </>

@@ -26,7 +26,7 @@ function About() {
             Gaming, Digital Art Creation, Dancing, Reading, Hands On Arts and Crafts, Anything Paranormal/Supernatural, Learning and Researching, Travel and Culture, Designing, Cosplay, Awkwardly Trying New Things, Completing Personal Growth Goals, and Daydreaming/Brainstorming!</p>
         </div>
       </div>
-      <a href='#' class='up' alt='jellyfish and arrow'>
+      <a href='#top' class='up' alt='jellyfish and arrow'>
         <img src='/jelly_up.png' alt='jellyfish with up arrow' class='jellyarrow' />
       </a>
     </>
