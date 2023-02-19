@@ -263,6 +263,7 @@ a:visited {
   width: 6vmax;
 }
 
+.home,
 .preview,
 .details,
 .about,
@@ -275,6 +276,7 @@ a:visited {
   padding: 25px;
 }
 
+.home-all,
 .all-preview,
 .all-detail,
 .about-all,
