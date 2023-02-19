@@ -17,10 +17,11 @@ function About() {
 
       <h3>Backgrounds: Graphic Arts and Design, Non-Profit Sector, Professional and Personal Deep Research and Verification, Project Planning, Event Coordination, Costuming, Promotional Marketing Design, QA Game Testing, and Overseas Language Education for Adults and Children. </h3>
 
-      <p>Hobbies include: 
+      <p>Hobbies include:
         Gaming, Digital Art Creation, Dancing, Reading, Hands On Arts and Crafts, Anything Paranormal/Supernatural, Learning and Researching, Travel and Culture, Designing, Cosplay, Awkwardly Trying New Things, Completing Personal Growth Goals, and Daydreaming/Brainstorming!</p>
-
-
+      <a href='#' class='up'>
+        <img src='jelly_up.png' alt='jellyfish with up arrow' class='jellyarrow' />
+      </a>
     </>
   )
 }

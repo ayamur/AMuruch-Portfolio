@@ -25,6 +25,9 @@ const ProjectDetails = () => {
           </a>
         </div>
       </div>
+      <a href='#' class='up'>
+        <img src='jelly_up.png' alt='jellyfish with up arrow' class='jellyarrow' />
+      </a>
     </>
   )
 }

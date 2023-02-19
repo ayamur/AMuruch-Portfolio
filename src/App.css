@@ -18,7 +18,6 @@
 
 body {
   color: #ffffff;
-  border: white 1px dotted;
   text-shadow: -1px 1px 2px rgb(0, 0, 0),
     1px 1px 1px rgb(0, 0, 0),
     1px -1px 0 rgb(0, 0, 0),
@@ -59,6 +58,8 @@ body {
 nav {
   display: flex;
   justify-content: space-between;
+  border: white 1px dotted;
+  padding-bottom: 10px;
 }
 
 button {
@@ -139,22 +140,19 @@ ul {
 }
 
 #resume {
-  margin-top: 40px;
+  margin-top: 50px;
   width: auto;
   height: 425px;
   min-width: 50vw;
   padding: 10px;
 }
 
-#githublogo {
-  width: 40vw;
-}
-
 .contacticons {
   display: flex;
   flex-direction: column;
-  max-width: 40vw;
+  width: 20vmax;
   margin: auto;
+  margin-top: 6vmax;
   padding: 23px;
   align-content: center;
   --glow-color: rgb(55, 58, 250);
@@ -221,15 +219,46 @@ a:visited {
 }
 
 .btn-details-div {
-margin-top: 40px;
-margin-bottom: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .all-detail {
-  border: 1px white dotted;
   margin-top: 40px;
 }
 
 .details-title-desc {
-margin-bottom: 55px;
+  margin-bottom: 55px;
+}
+
+
+.jellyarrow {
+  width: 5vmax;
+  --offset: 20px;
+  position: sticky;
+  bottom: 20px;
+  margin-left: 90%;
+  place-self: end;
+  margin-top: calc(20vh + var(--offset));
+  text-decoration: none;
+  padding: 10px;
+  color: #00c3ff;
+  --glow-color: rgba(73, 108, 222, 0.519);
+  --glow-spread-color: rgba(100, 103, 255, 1);
+  --enhanced-glow-color: rgba(235, 236, 246, 1);
+  border: .25em var(--glow-color);
+  border-radius: 50%;
+  box-shadow: 0 0 1em .25em var(--glow-color),
+    0 0 4em 1em var(--glow-spread-color),
+    inset 0 0 .75em .25em var(--glow-color);
+  transition: all 0.3s;
+  white-space: nowrap;
+}
+
+.jellyarrow:hover {
+  background-color: var(--enhanced-glow-color);
+  box-shadow: 0 0 1em 1em var(--glow-color),
+    0 0 4em 2em var(--glow-spread-color),
+    inset 0 0 .75em 2em var(--glow-color);
+  width: 6vmax;
 }
