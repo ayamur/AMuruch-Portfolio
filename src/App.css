@@ -235,12 +235,11 @@ a:visited {
 
 .jellyarrow {
   width: 5vmax;
-  --offset: 20px;
   position: sticky;
-  bottom: 20px;
+  bottom: 10px;
   margin-left: 90%;
   place-self: end;
-  margin-top: calc(20vh + var(--offset));
+  margin-top: 1vh;
   text-decoration: none;
   padding: 10px;
   color: #00c3ff;
@@ -264,13 +263,13 @@ a:visited {
   width: 6vmax;
 }
 
-.preview, .details, .about, .contact-git, .contact-linked, .contact-mail {
+.preview, .details, .about, .contact-git, .contact-linked, .contact-mail, .resume-pg {
   border: white 1px dotted;
   margin: 50px;
   padding: 25px;
 }
 
-.all-preview, .all-detail, .about-all, .contact-all {
+.all-preview, .all-detail, .about-all, .contact-all, .resume-all {
   border: white 1px dotted;
   margin: 25px;
   padding: 10px;

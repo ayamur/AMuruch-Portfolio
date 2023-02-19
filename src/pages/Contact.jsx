@@ -21,10 +21,10 @@ function Contact() {
             Contact Me via E-Mail!
           </a>
         </div>
-        <a href='#' class='up' alt='jellyfish and arrow'>
-          <img src='/jelly_up.png' alt='jellyfish with up arrow' class='jellyarrow' />
-        </a>
       </div>
+      <a href='#' class='up' alt='jellyfish and arrow'>
+        <img src='/jelly_up.png' alt='jellyfish with up arrow' class='jellyarrow' />
+      </a>
     </>
   )
 }

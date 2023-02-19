@@ -4,6 +4,7 @@ import projects from '../data/projects'
 const Projects = () => {
   return (
     <>
+    <h1>Apps and Projects:</h1>
       <div>
         <ProjectsList projects={projects} />
       </div>

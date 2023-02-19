@@ -1,10 +1,9 @@
 function About() {
   return (
     <>
+      <h1>About Ayala Murúch:</h1>
       <div class='about-all'>
         <div class='about'>
-
-          <h1>About Ayala Murúch</h1>
           <h2>Software Engineer with a Background in Design, Non-Profits, and Game Testing Passionate about Coding, Cryptids, and Uplifting Others! </h2>
           <p>I am currently working through General Assembly’s Software Engineer Full-Time Immersion Program. This program is fast-paced and intense, but participating is really allowing me to hone in on my strengths and use them to gain a variety of new skills and growth in a supportive environment.
           </p>
