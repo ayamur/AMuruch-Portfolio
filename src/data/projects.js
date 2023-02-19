@@ -9,7 +9,7 @@ const projects = [
   },
   {
     title: 'MeMoMoMaMe',
-    description: "MeMoMoMaMe is a small app that allows for interactions in 3 simple ways: (1.) Create, update, or delete a 'Monster Moment' (a big event or emotion) without other users knowing who you are. (2.) Read and/or reply to someone else's 'Monster Moment'. (3.) Add or remove quotes from your own profile! It's that easy!",
+    description: "MeMoMoMaMe is a small app that allows for interactions in 3 simple ways: (1) Create, update, or delete a 'Monster Moment' (a big event or emotion) without other users knowing who you are. (2) Read and/or reply to someone else's 'Monster Moment'. (3) Add or remove quotes from your own profile! It's that easy!",
     image: 'https://raw.githubusercontent.com/ayamur/memomomame/main/public/assets/images/Screenshot_20230120_060604.png',
     repositoryLink: 'https://github.com/ayamur/memomomame',
     deploymentLink: 'https://memomomame.fly.dev/',

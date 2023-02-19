@@ -23,6 +23,7 @@ body {
     1px -1px 0 rgb(0, 0, 0),
     -1px -1px 0 rgb(0, 0, 0);
   background-image: url('/public/jellyfish-4923658_1920.jpg');
+  background-size: 400cqmin;
   font-family: 'Michroma', sans-serif;
   justify-items: center;
   align-items: center;
@@ -136,15 +137,16 @@ button:active {
 ul {
   display: flex;
   justify-content: space-evenly;
-  width: 100%;
+  width: 80%;
 }
 
 #resume {
   margin-top: 50px;
   width: auto;
-  height: 425px;
-  min-width: 50vw;
+  height: 75vmax;
+  min-width: 55vw;
   padding: 10px;
+justify-self: center;
 }
 
 .contacticons {
@@ -190,27 +192,28 @@ h1 {
 }
 
 h2 {
-  font-size: 4vw;
+  font-size: 3vmax, 2.5vmin;
 }
 
 h3 {
-  font-size: 3vw;
+  font-size: 2.25vmax, 2vmin;
+
 }
 
 h4 {
-  font-size: 2.5vw;
+  font-size: 2vmax, 1.5vmin;
 }
 
 h5 {
-  font-size: 2vw;
+  font-size: 1.75vmax, 1.25vmin;
 }
 
 p {
-  font-size: 1.5vw;
+  font-size: 2vmax, 1.5vmin;
 }
 
 h6 {
-  font-size: 1vw;
+  font-size: 1.5vmax, 1vmin;
 }
 
 #references {
@@ -309,4 +312,8 @@ a:visited {
   border: white 1px dotted;
   margin: 25px;
   padding: 10px;
+}
+
+a.resume-icon:link, a.resume-icon:active, a.resume-icon:visited{
+  color: #ffffff;
 }
