@@ -189,6 +189,30 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  font-size: 4vw;
+}
+
+h3 {
+  font-size: 3vw;
+}
+
+h4 {
+  font-size: 2.5vw;
+}
+
+h5 {
+  font-size: 2vw;
+}
+
+p {
+  font-size: 1.5vw;
+}
+
+h6 {
+  font-size: 1vw;
+}
+
 #references {
   text-shadow: 0 0 5px #0066ff, 0 0 15px #1100ff, 0 0 20px #6200ff, 0 0 40px #9900ff, 0 0 60px #2600ff, 0 0 10px #6f00ff, 0 0 98px #2600ff;
   color: #6380ff;

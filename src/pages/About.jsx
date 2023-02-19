@@ -23,7 +23,7 @@ function About() {
           </h3>
           <p>
             Hobbies include:
-            Gaming, Digital Art Creation, Dancing, Reading, Hands On Arts and Crafts, Anything Paranormal/Supernatural, Learning and Researching, Travel and Culture, Designing, Cosplay, Awkwardly Trying New Things, Completing Personal Growth Goals, and Daydreaming/Brainstorming!</p>
+            Gaming, Digital Art Creation, Dancing, Reading, Hands On Arts and Crafts, Anything Paranormal /Supernatural, Learning and Researching, Travel and Culture, Designing, Cosplay, Awkwardly Trying New Things, Completing Personal Growth Goals, and Daydreaming/Brainstorming!</p>
         </div>
       </div>
       <a href='#top' class='up' alt='jellyfish and arrow'>
