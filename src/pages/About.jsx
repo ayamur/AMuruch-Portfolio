@@ -15,7 +15,12 @@ function About() {
         My biggest goal is to continue to pursue my own career path in the field of tech that will allow me to continue to pursue and understand different languages, but at the same time be a place where I can really help others, including those I work with, with my strengths of multiple soft-skills and genuine care and concern for others.
       </p>
 
-      <h4>Backgrounds: Graphic Arts and Design, Non-Profit Sector, Professional and Personal Deep Research and Verification, Project Planning, Event Coordination, Costuming, Promotional Marketing Design, QA Game Testing, and Overseas Language Education for Adults and Children </h4>
+      <h3>Backgrounds: Graphic Arts and Design, Non-Profit Sector, Professional and Personal Deep Research and Verification, Project Planning, Event Coordination, Costuming, Promotional Marketing Design, QA Game Testing, and Overseas Language Education for Adults and Children. </h3>
+
+      <p>Hobbies include: 
+        Gaming, Digital Art Creation, Dancing, Reading, Hands On Arts and Crafts, Anything Paranormal/Supernatural, Learning and Researching, Travel and Culture, Designing, Cosplay, Awkwardly Trying New Things, Completing Personal Growth Goals, and Daydreaming/Brainstorming!</p>
+
+
     </>
   )
 }
