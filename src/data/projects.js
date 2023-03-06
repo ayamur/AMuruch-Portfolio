@@ -1,6 +1,14 @@
 const projects = [
 
   {
+    title: 'I Am Devloper!',
+    description: 
+    "I am Devloper!!! is an app specially made for anyone involved in computer code! Share your funny and ironic errors and oops code to others who get it! Scroll through the list and have a laugh and realization you aren't alone in those moments! Help others combat imposter syndrome by uploading your own unique and silly 'oops!' code and errors today!",
+    image: '/cc_screenshot.png',
+    repositoryLink: 'https://github.com/ayamur/i-am-devloper-front-end',
+    deploymentLink: 'https://app.netlify.com/sites/i-am-devloper/deploys',
+  },
+  {
     title: 'Cosmic Cue',
     description: 'Cosmic Cue is a playful app designed to bring positivity and inspiration into your life. With Cosmic Cue, you can receive daily fun fortunes and silly signs from all over the universe to help guide you on your personal path.',
     image: '/cc_screenshot.png',
@@ -27,7 +35,7 @@ const projects = [
     image: 'https://i.imgur.com/u7vpkqH.png',
     repositoryLink: 'https://github.com/ayamur/ttt-weekend',
     deploymentLink: 'https://aya-tic-tac-toe.netlify.app/',
-  }
+  },
 
 ]
 
