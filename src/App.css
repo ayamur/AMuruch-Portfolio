@@ -60,6 +60,7 @@ button {
   padding: 2px, 5px, 10px, 5px;
   flex-wrap: wrap;
   min-width: 3vmin;
+  max-width: 15vmax;
   --glow-color: rgb(55, 58, 250);
   --glow-spread-color: rgba(58, 67, 254, 0.781);
   --enhanced-glow-color: rgb(25, 0, 250);
@@ -79,18 +80,6 @@ button {
   transition: all 0.3s;
 }
 
-#download {
-  padding: 10px;
-  margin: 10px;
-}
-
-#downloadbtn:hover {
-  background-color: var(--glow-color);
-  box-shadow: 0 0 1em .25em var(--glow-color),
-    0 0 4em 2em var(--glow-spread-color),
-    inset 0 0 .75em .25em var(--glow-color);
-}
-
 button::after {
   pointer-events: none;
   content: "";
@@ -105,7 +94,6 @@ button::after {
 }
 
 button:hover {
-  min-width: 20vw;
   color: white;
   background-color: var(--glow-color);
   box-shadow: 0 0 1em .25em var(--glow-color),
@@ -119,10 +107,24 @@ button:active {
     inset
 }
 
+#download {
+  padding: 10px;
+  margin: 10px;
+}
+
+#downloadbtn:hover {
+  background-color: var(--glow-color);
+  box-shadow: 0 0 1em .25em var(--glow-color),
+    0 0 4em 2em var(--glow-spread-color),
+    inset 0 0 .75em .25em var(--glow-color);
+}
+
+
 #signature {
-  max-width: 12vw;
-  padding-left: 15px;
-  padding-top: 15px;
+  min-width: 1vmin;
+  max-width: 5vmax;
+  /* padding-left: 15px;
+  padding-top: 15px; */
 }
 
 #sigbtn {
@@ -185,31 +187,6 @@ h1 {
   color: #6380ff;
   text-align: center;
 }
-
-/* h2 {
-  font-size: 3vmax, 2.5vmin;
-}
-
-h3 {
-  font-size: 2.25vmax, 2vmin;
-
-}
-
-h4 {
-  font-size: 2vmax, 1.5vmin;
-}
-
-h5 {
-  font-size: 1.75vmax, 1.25vmin;
-}
-
-p {
-  font-size: 2vmax, 1.5vmin;
-}
-
-h6 {
-  font-size: 1.5vmax, 1vmin;
-} */
 
 #references {
   text-shadow: 0 0 5px #0066ff, 0 0 15px #1100ff, 0 0 20px #6200ff, 0 0 40px #9900ff, 0 0 60px #2600ff, 0 0 10px #6f00ff, 0 0 98px #2600ff;

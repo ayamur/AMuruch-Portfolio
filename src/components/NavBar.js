@@ -5,14 +5,12 @@ function NavBar() {
   return (
 
     <nav>
-      <div id='sig'>
-        <button type='button' id='sigbtn'>
+      <ul>
+        <button type='button' id='sigbtn' className='navbarbtn'>
           <Link to='/'>
             <img src='/signature.png' id='signature' alt='ayala signature icon' />
           </Link>
         </button>
-      </div>
-      <ul>
         <Link to='/about'>
           <button type='button' id='aboutbtn' className='navbarbtn' >
             About
