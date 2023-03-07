@@ -18,13 +18,13 @@
 
 body {
   color: #ffffff;
-  text-shadow: -1px 1px 2px rgb(0, 0, 0),
-    1px 1px 1px rgb(0, 0, 0),
-    1px -1px 0 rgb(0, 0, 0),
-    -1px -1px 0 rgb(0, 0, 0);
+  text-shadow: -1px 1px 2px rgb(38, 0, 255),
+    1px 1px 1px rgb(85, 0, 255),
+    1px -1px 0 rgb(0, 38, 255),
+    -1px -1px 0 rgb(0, 149, 255);
   background-image: url('/public/jellyfish-4923658_1920.jpg');
   background-size: 400cqmin;
-  font-family: 'Michroma', sans-serif;
+  font-family: 'Special Elite', sans-serif;
   justify-items: center;
   align-items: center;
   text-align: center;
@@ -33,7 +33,8 @@ body {
 }
 
 #itsame {
-  max-width: 25vw;
+  width: 15vw;
+  max-width: 30vw;
   justify-content: center;
   --glow-color: rgb(55, 58, 250);
   --glow-spread-color: rgba(58, 67, 254, 0.781);
@@ -48,30 +49,24 @@ body {
   transition: all 0.3s;
 }
 
-/* #itsame:hover {
-  max-width: 35vw;
-  background-color: var(--glow-color);
-  box-shadow: 0 0 1em .25em var(--glow-color),
-    0 0 4em 2em var(--glow-spread-color),
-    inset 0 0 .75em .25em var(--glow-color);
-} */
-
 nav {
   display: flex;
   justify-content: space-between;
-  /* border: white 1px dotted; */
-  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color: rgba(0, 0, 0, 0.33);
 }
 
 button {
-  min-width: 15vw;
+  padding: 2px, 5px, 10px, 5px;
+  flex-wrap: wrap;
+  min-width: 3vmin;
   --glow-color: rgb(55, 58, 250);
   --glow-spread-color: rgba(58, 67, 254, 0.781);
   --enhanced-glow-color: rgb(25, 0, 250);
   --btn-color: rgb(0, 0, 0);
   border: .25em solid var(--glow-color);
   color: var(--glow-color);
-  font-size: 2vmax;
+  font-size: 3vmin;
   font-family: 'Michroma', sans-serif;
   font-weight: bold;
   background-color: var(--btn-color);
@@ -146,7 +141,7 @@ ul {
   height: 75vmax;
   min-width: 55vw;
   padding: 10px;
-justify-self: center;
+  justify-self: center;
 }
 
 .contacticons {
@@ -181,8 +176,7 @@ justify-self: center;
 #footer {
   margin: 100px 0 0 0;
   padding: 5px 0 0 0;
-  background-color: rgba(0, 0, 0, 0.13);
-  /* border: 1px white dotted; */
+  background-color: rgba(0, 0, 0, 0.33);
 }
 
 h1 {
@@ -262,7 +256,8 @@ a:visited {
 }
 
 .jellyarrow {
-  width: 5vmax;
+  width: 6vmin;
+  max-width: 10vmax;
   position: sticky;
   bottom: 10px;
   margin-left: 90%;
@@ -288,7 +283,8 @@ a:visited {
   box-shadow: 0 0 1em 1em var(--glow-color),
     0 0 4em 2em var(--glow-spread-color),
     inset 0 0 .75em 2em var(--glow-color);
-  width: 6vmax;
+  width: 7vmin;
+  max-width: 11vmax;
 }
 
 .home,
@@ -299,9 +295,9 @@ a:visited {
 .contact-linked,
 .contact-mail,
 .resume-pg {
-  background-color: rgba(0, 0, 0, 0.13);
-  /* margin: 10px;
-  padding: 15px; */
+  background-color: rgba(0, 0, 0, 0.33);
+  margin: 10px;
+  padding: 15px;
 }
 
 .home-all,
@@ -310,11 +306,12 @@ a:visited {
 .about-all,
 .contact-all,
 .resume-all {
-  /* border: rgba(0, 0, 0, 0.25) 20px solid; */
   margin: 10px;
   padding: 10px;
 }
 
-a.resume-icon:link, a.resume-icon:active, a.resume-icon:visited{
+a.resume-icon:link,
+a.resume-icon:active,
+a.resume-icon:visited {
   color: #ffffff;
 }
