@@ -122,6 +122,11 @@ button:active {
     inset
 }
 
+.homedivide {
+  margin: 20px, 0, 20px, 0;
+  padding: 20px, 0, 20px, 0;
+}
+
 #download {
   padding: 10px;
   margin: 10px;
