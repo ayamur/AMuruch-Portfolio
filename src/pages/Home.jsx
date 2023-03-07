@@ -16,11 +16,11 @@ function Home() {
           <h4 className='homedivide'><em>with skills in:</em></h4>
           <div className='waphome'>
           <h3>Frameworks/Libraries:</h3>
-          <h6> npm, <div id='jquery'className='listicons'><img src='https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/JQuery.svg' alt='jQuery icon'/>(jQuery) </div> React</h6></div>
+          <h6> npm, <div id='jquery'className='listicons'><img src='https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/JQuery.svg' alt='jQuery icon'/>(jQuery) </div> <div id='react' className='listicons'><img src='https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/React-Dark.svg' alt='React icon' />(React)</div></h6></div>
           <div>
-          <h3>Languages: <div id='javascript' className='listicons' ><img src='https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/JavaScript.svg' alt='JavaScript icon'/>JavaScript </div>, HTML, CSS, TypeScript, EJS</div></h3></div>
+          <h3>Languages: <div id='javascript' className='listicons' ><img src='https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/JavaScript.svg' alt='JavaScript icon'/>JavaScript </div>, HTML, CSS, TypeScript, EJS</h3></div>
           <h3>Web Application Stacks: MERN, PERN</h3>
-          <h3>Database/ Backend: PostgreSQL, MongoDB, <div id='expressjs'className='listicons'><img src='https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/ExpressJS-Dark.svg' alt='express.js icon'/>(Express.js)  Node.js</div></h3>
+          <h3>Database/ Backend: PostgreSQL, <div id='mondodb' className='listicons'><img src='https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/MongoDB.svg' alt='mondoDB icon' />(MongoDB)</div>, <div id='expressjs'className='listicons'><img src='https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/ExpressJS-Dark.svg' alt='express.js icon'/>(Express.js) <div icon='nodejs'><img src='https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/NodeJS-Dark.svg' alt='node.js icon'/>(Node.js)</div></div></h3>
           <h3>Software Development Platforms: GitHub, </h3>
           <h3>Additional: RESTful Routing, APIs, Mongoose ODM, JSON, JWT, AJAX, Sequelize, SPA, MVC framework, bit.io, OAuth </h3>
           <h4 className='homedivide'><em>and I am looking for:</em></h4>
