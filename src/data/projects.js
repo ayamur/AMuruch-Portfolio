@@ -4,7 +4,7 @@ const projects = [
     title: 'I Am Devloper!',
     description: 
     "I am Devloper!!! is an app specially made for anyone involved in computer code! Share your funny and ironic errors and oops code to others who get it! Scroll through the list and have a laugh and realization you aren't alone in those moments! Help others combat imposter syndrome by uploading your own unique and silly 'oops!' code and errors today!",
-    image: '/cc_screenshot.png',
+    image: 'https://camo.githubusercontent.com/ed91f8ef269bbb15b0c35bb36c5dabe0929e28a23315419966bd97574108a5e9/68747470733a2f2f692e696d6775722e636f6d2f6e68507673324d2e706e67',
     repositoryLink: 'https://github.com/ayamur/i-am-devloper-front-end',
     deploymentLink: 'https://app.netlify.com/sites/i-am-devloper/deploys',
   },
