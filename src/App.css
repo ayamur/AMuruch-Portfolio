@@ -51,6 +51,12 @@ body {
 
 .homeone {
   display: flex;
+  justify-content: center;
+  margin-left: 8%;
+}
+
+.homediv {
+  justify-content: center;
 }
 
 .navdiv {
@@ -125,6 +131,11 @@ button:active {
 .homedivide {
   margin: 20px, 0, 20px, 0;
   padding: 20px, 0, 20px, 0;
+}
+
+.listicons {
+  min-width: 3em;
+  max-width: 5em;
 }
 
 #download {
