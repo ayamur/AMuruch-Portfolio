@@ -57,28 +57,28 @@ body {
 
 nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   justify-items: center;
   padding: 10px;
   margin: 10px;
   background-color: rgba(0, 0, 0, 0.33);
-  /* border-radius: 50%; */
+  border-radius: 55px/55px;
 }
 
 button {
   padding: 2px, 5px, 10px, 5px;
   flex-wrap: wrap;
-  min-width: 15vmin;
-  min-height: 15vmin;
-  max-width: 25vmax;
-  max-height: 25vmax;
+  min-width: 15vw;
+  min-height: 15vw;
+  max-width: 25vw;
+  max-height: 25vw;
   --glow-color: rgb(55, 58, 250);
   --glow-spread-color: rgba(58, 67, 254, 0.781);
   --enhanced-glow-color: rgb(25, 0, 250);
   --btn-color: rgb(0, 0, 0);
   border: .25em solid var(--glow-color);
   color: var(--glow-color);
-  font-size: 3vmin;
+  font-size: 3vw;
   font-family: 'Macondo', cursive;
   font-weight: bold;
   background-color: var(--btn-color);
@@ -130,12 +130,6 @@ button:active {
     inset 0 0 .75em .25em var(--glow-color);
 }
 
-/* #signature {
-
-  padding-left: 15px;
-  padding-top: 15px;
-} */
-
 #sigbtn {
   background-image: url('/public/signature.png');
   background-size: contain;
@@ -185,6 +179,7 @@ button:active {
   margin: 100px 0 0 0;
   padding: 5px 0 0 0;
   background-color: rgba(0, 0, 0, 0.33);
+  border-radius: 55px/55px;
 }
 
 h1 {
@@ -239,8 +234,9 @@ a:visited {
 }
 
 .jellyarrow {
-  width: 6vmin;
-  max-width: 10vmax;
+  opacity: 75%;
+  width: 15vmin;
+  max-width: 25vmin;
   position: sticky;
   bottom: 10px;
   margin-left: 90%;
@@ -266,8 +262,9 @@ a:visited {
   box-shadow: 0 0 1em 1em var(--glow-color),
     0 0 4em 2em var(--glow-spread-color),
     inset 0 0 .75em 2em var(--glow-color);
-  width: 7vmin;
-  max-width: 11vmax;
+  opacity: 100%;
+  width: 17vmin;
+  max-width: 27vmin;
 }
 
 .home,
@@ -279,6 +276,7 @@ a:visited {
 .contact-mail,
 .resume-pg {
   background-color: rgba(0, 0, 0, 0.33);
+  border-radius: 55px/55px;
   margin: 10px;
   padding: 15px;
 }
