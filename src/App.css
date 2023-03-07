@@ -49,10 +49,17 @@ body {
   transition: all 0.3s;
 }
 
+.navdiv {
+  padding: 10px;
+  margin: 10px;
+}
+
 nav {
   display: flex;
-  justify-content: space-between;
-  padding-top: 10px;
+  justify-content: space-around;
+  justify-items: center;
+  padding: 10px;
+  margin: 10px;
   background-color: rgba(0, 0, 0, 0.33);
 }
 
@@ -60,7 +67,9 @@ button {
   padding: 2px, 5px, 10px, 5px;
   flex-wrap: wrap;
   min-width: 15vmin;
+  min-height: 15vmin;
   max-width: 25vmax;
+  max-height: 25vmax;
   --glow-color: rgb(55, 58, 250);
   --glow-spread-color: rgba(58, 67, 254, 0.781);
   --enhanced-glow-color: rgb(25, 0, 250);
@@ -71,7 +80,7 @@ button {
   font-family: 'Macondo', cursive;
   font-weight: bold;
   background-color: var(--btn-color);
-  border-radius: 33%;
+  border-radius: 50%;
   outline: none;
   box-shadow: 0 0 1em .25em var(--glow-color),
     0 0 4em 1em var(--glow-spread-color),
@@ -126,10 +135,10 @@ button:active {
 } */
 
 #sigbtn {
-background-image: url('/public/signature.png');
-background-size: contain;
-background-repeat: no-repeat;
-background-position: center;
+  background-image: url('/public/signature.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 ul {
