@@ -5,7 +5,6 @@ function NavBar() {
   return (
     <div className='navdiv'>
       <nav>
-        <ul>
           <button type='button' id='sigbtn' className='navbarbtn'>
             <Link to='/' />
           </button>
@@ -29,7 +28,6 @@ function NavBar() {
               Resume
             </button>
           </Link>
-        </ul>
       </nav>
     </div>
   )
