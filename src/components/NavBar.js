@@ -8,7 +8,7 @@ function NavBar() {
       <ul>
         <button type='button' id='sigbtn' className='navbarbtn'>
           <Link to='/'>
-            <img src='/signature.png' id='signature' alt='ayala signature icon' />
+            {/* <img src='/signature.png' id='signature' alt='ayala signature icon' /> */}
           </Link>
         </button>
         <Link to='/about'>
