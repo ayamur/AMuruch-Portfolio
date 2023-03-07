@@ -151,7 +151,7 @@ button:active {
 }
 
 #sigbtn {
-  background-image: url('/public/signature.png');
+  background: url('/public/signature.png') scroll;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
