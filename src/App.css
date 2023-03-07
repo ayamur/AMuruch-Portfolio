@@ -256,7 +256,6 @@ a:visited {
 .jellyarrow {
   opacity: 75%;
   width: 15vmin;
-  max-width: 25vmin;
   position: sticky;
   bottom: 10px;
   margin-left: 90%;
@@ -283,8 +282,7 @@ a:visited {
     0 0 4em 2em var(--glow-spread-color),
     inset 0 0 .75em 2em var(--glow-color);
   opacity: 100%;
-  width: 17vmin;
-  max-width: 27vmin;
+  width: 15.5vmin;
 }
 
 .home,
