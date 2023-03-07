@@ -49,6 +49,10 @@ body {
   transition: all 0.3s;
 }
 
+.homeone {
+  display: flex;
+}
+
 .navdiv {
   padding: 10px;
   margin: 10px;
@@ -295,4 +299,12 @@ a.resume-icon:link,
 a.resume-icon:active,
 a.resume-icon:visited {
   color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  .homeone {
+    flex-direction: column;
+    align-items: center;
+  }
+
 }
