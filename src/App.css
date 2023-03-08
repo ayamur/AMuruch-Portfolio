@@ -136,6 +136,14 @@ button:active {
 .listicons {
   min-width: 3em;
   max-width: 5em;
+  display: flex;
+  flex-direction: row;
+}
+
+.skillsbox{
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
 }
 
 #download {
