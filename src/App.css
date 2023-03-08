@@ -286,7 +286,10 @@ a:visited {
 
 .project-list {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: auto;
 }
 
 .jellyarrow {
@@ -345,11 +348,13 @@ a:visited {
   padding: 10px;
 }
 
-.contact-all {
+.contact-all,
+.all-preview {
   display: flex;
   flex-direction: row;
   align-content: center;
   margin: auto;
+  width: 35%;
 }
 
 .contact-git,
