@@ -28,105 +28,115 @@ function Home() {
             <em>with skills in:</em>
           </h4>
           <div className='skillsbox'>
-            <h3>Frameworks/Libraries:</h3>
-            <h6>
-              <div id='npm' className='listicons'>
-                <img src='/techicons/npm.png' alt='npm icon' className='listicons' />
-                (npm)
-              </div>
-              <div id='jquery' className='listicons'>
-                <img src='https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/JQuery.svg' alt='jQuery icon' className='listicons' />
-                (jQuery)
-              </div>
-              <div id='react' className='listicons'>
-                <img src='https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/React-Dark.svg' alt='React icon' className='listicons' />
-                (React)
-              </div>
-            </h6>
-            <h3>Languages:</h3>
-            <h6>
-              <div id='javascript' className='listicons' >
-                <img src='https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/JavaScript.svg' alt='JavaScript icon' className='listicons' />
-                (JavaScript)
-              </div>
-              <div id='html' className='listicons'>
-                <img src='https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/HTML.svg' alt='HTML icon' className='listicons' />
-                (HTML)
-              </div>
-              <div id='CSS' className='listicons'>
-                <img src='https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/CSS.svg' alt='CSS icon' className='listicons' />
-                (CSS)
-              </div>
-              <div id='typescript' className='listicons'>
-                <img src='https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/TypeScript.svg' alt='TypeScript icon' className='listicons' />
-                (TypeScript)
-              </div>
-            </h6>
-            <h3>Web Application Stacks: </h3>
-            <h6>
-              <div id='mern' className='listicons' >
-                <img src='https://cdn.iconscout.com/icon/premium/png-512-thumb/mern-stack-5363121-4488910.png?f=avif&w=256' alt='MERN icon' className='listicons' />
-                (MERN Stack)
-              </div>
-              <div id='pern' className='listicons' >
-                <img src='/techicons/pern.png' alt='PERN icon' className='listicons' />
-                (PERN Stack)
-              </div>
-            </h6>
-            <h3>Database/ Backend:</h3>
-            <h6>
-              <div id='postgresql' className='listicons' >
-                <img src='https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/PostgreSQL-Dark.svg' alt='PostgreSQL icon' className='listicons' />
-                (PostgreSQL)
-              </div>
-              <div id='mondodb' className='listicons' >
-                <img src='https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/MongoDB.svg' alt='mondoDB icon' className='listicons' />
-                (MongoDB)
-              </div>
-              <div id='azure' className='listicons' >
-                <img src='https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/Azure-Dark.svg' alt='Azure icon' className='listicons' />
-                (Azure)
-              </div>
-              <div id='expressjs' className='listicons' >
-                <img src='https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/ExpressJS-Dark.svg' alt='express.js icon' className='listicons' />
-                (Express.js)
-              </div>
-              <div icon='nodejs' className='listicons' >
-                <img src='https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/NodeJS-Dark.svg' alt='node.js icon' className='listicons' />
-                (Node.js)
-              </div>
-            </h6>
-            <h3>Additional:</h3>
-            <h6>
-              <div icon='api' className='listicons'>
-                <img src='/techicons/api.png' alt='API icon' className='listicons' />
-                (API)
-              </div>
-              <div icon='sequelize' className='listicons'>
-                <img src='https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/Sequelize-Dark.svg' alt='Sequelize icon' className='listicons' />
-                (Sequelize)
-              </div>
-              <div icon='postman' className='listicons'>
-                <img src='https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/Postman.svg' alt='Postman icon' className='listicons' />
-                (Postman)
-              </div>
-              <div icon='github' className='listicons'>
-                <img src='https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/Github-Dark.svg' alt='GitHub icon' className='listicons' />
-                (GitHub)
-              </div>
-              <div icon='netlify' className='listicons'>
-                <img src='https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/Netlify-Dark.svg' alt='Netlify icon' className='listicons' />
-                (Netlify)
-              </div>
-              <div icon='flyio' className='listicons'>
-                <img src='https://seeklogo.com/images/F/fly-io-logo-8FBFA92BAF-seeklogo.com.png?v=637939123400000000' alt='Flyio icon' className='listicons' />
-                (fly.io)
-              </div>
-              <div icon='vscode' className='listicons'>
-                <img src='https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/VSCode-Dark.svg' alt='VS Code icon' className='listicons' />
-                (VS Code)
-              </div>
-            </h6>
+            <div className='webapps'>
+              <h3 className='categories'>Web Application Stacks:</h3>
+              <h6>
+                <div id='mern' className='listicons' >
+                  <img src='https://cdn.iconscout.com/icon/premium/png-512-thumb/mern-stack-5363121-4488910.png?f=avif&w=256' alt='MERN icon' className='listicons' />
+                  (MERN Stack)
+                </div>
+                <div id='pern' className='listicons' >
+                  <img src='/techicons/pern.png' alt='PERN icon' className='listicons' />
+                  (PERN Stack)
+                </div>
+              </h6>
+            </div>
+            <div class='frameworks'>
+              <h3 className='categories'>Frameworks/Libraries:</h3>
+              <h6>
+                <div id='npm' className='listicons'>
+                  <img src='/techicons/npm.png' alt='npm icon' className='listicons' />
+                  (npm)
+                </div>
+                <div id='jquery' className='listicons'>
+                  <img src='https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/JQuery.svg' alt='jQuery icon' className='listicons' />
+                  (jQuery)
+                </div>
+                <div id='react' className='listicons'>
+                  <img src='https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/React-Dark.svg' alt='React icon' className='listicons' />
+                  (React)
+                </div>
+              </h6>
+            </div>
+            <div className='languages'>
+              <h3 className='categories'>Languages:</h3>
+              <h6>
+                <div id='javascript' className='listicons' >
+                  <img src='https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/JavaScript.svg' alt='JavaScript icon' className='listicons' />
+                  (JavaScript)
+                </div>
+                <div id='html' className='listicons'>
+                  <img src='https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/HTML.svg' alt='HTML icon' className='listicons' />
+                  (HTML)
+                </div>
+                <div id='CSS' className='listicons'>
+                  <img src='https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/CSS.svg' alt='CSS icon' className='listicons' />
+                  (CSS)
+                </div>
+                <div id='typescript' className='listicons'>
+                  <img src='https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/TypeScript.svg' alt='TypeScript icon' className='listicons' />
+                  (TypeScript)
+                </div>
+              </h6>
+            </div>
+            <div className='databases'>
+              <h3 className='categories'>Database/ Backend:</h3>
+              <h6>
+                <div id='postgresql' className='listicons' >
+                  <img src='https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/PostgreSQL-Dark.svg' alt='PostgreSQL icon' className='listicons' />
+                  (PostgreSQL)
+                </div>
+                <div id='mondodb' className='listicons' >
+                  <img src='https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/MongoDB.svg' alt='mondoDB icon' className='listicons' />
+                  (MongoDB)
+                </div>
+                <div id='azure' className='listicons' >
+                  <img src='https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/Azure-Dark.svg' alt='Azure icon' className='listicons' />
+                  (Azure)
+                </div>
+                <div id='expressjs' className='listicons' >
+                  <img src='https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/ExpressJS-Dark.svg' alt='express.js icon' className='listicons' />
+                  (Express.js)
+                </div>
+                <div icon='nodejs' className='listicons' >
+                  <img src='https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/NodeJS-Dark.svg' alt='node.js icon' className='listicons' />
+                  (Node.js)
+                </div>
+              </h6>
+            </div>
+            <div className='additionals'>
+              <h3 className='categories'>Additional:</h3>
+              <h6>
+                <div icon='api' className='listicons'>
+                  <img src='/techicons/api.png' alt='API icon' className='listicons' />
+                  (API)
+                </div>
+                <div icon='sequelize' className='listicons'>
+                  <img src='https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/Sequelize-Dark.svg' alt='Sequelize icon' className='listicons' />
+                  (Sequelize)
+                </div>
+                <div icon='postman' className='listicons'>
+                  <img src='https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/Postman.svg' alt='Postman icon' className='listicons' />
+                  (Postman)
+                </div>
+                <div icon='github' className='listicons'>
+                  <img src='https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/Github-Dark.svg' alt='GitHub icon' className='listicons' />
+                  (GitHub)
+                </div>
+                <div icon='netlify' className='listicons'>
+                  <img src='https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/Netlify-Dark.svg' alt='Netlify icon' className='listicons' />
+                  (Netlify)
+                </div>
+                <div icon='flyio' className='listicons'>
+                  <img src='https://seeklogo.com/images/F/fly-io-logo-8FBFA92BAF-seeklogo.com.png?v=637939123400000000' alt='Flyio icon' className='listicons' />
+                  (fly.io)
+                </div>
+                <div icon='vscode' className='listicons'>
+                  <img src='https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/VSCode-Dark.svg' alt='VS Code icon' className='listicons' />
+                  (VS Code)
+                </div>
+              </h6>
+            </div>
           </div>
           <div className='iconless' >
             <h4>

@@ -131,6 +131,7 @@ button:active {
 .homedivide {
   margin: 20px, 0, 20px, 0;
   padding: 20px, 0, 20px, 0;
+  flex-direction: row;
 }
 
 .listicons {
@@ -138,13 +139,39 @@ button:active {
   max-width: 5em;
   display: flex;
   flex-direction: row;
+  padding: 10px;
+  align-items: center;
+  align-content: center;
+  margin: auto;
 }
 
-.skillsbox{
+.skillsbox {
   display: flex;
-  flex-direction: column;
-  align-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  margin: auto;
 }
+
+.categories {
+  padding: 15px;
+  align-items: center;
+  align-content: center;
+  margin: auto;
+}
+
+.frameworks,
+.languages,
+.webapps,
+.databases,
+.additionals{
+align-items: center;
+align-content: center;
+margin: auto;
+}
+
+
 
 #download {
   padding: 10px;
