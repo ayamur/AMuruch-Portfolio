@@ -165,10 +165,10 @@ button:active {
 .languages,
 .webapps,
 .databases,
-.additionals{
-align-items: center;
-align-content: center;
-margin: auto;
+.additionals {
+  align-items: center;
+  align-content: center;
+  margin: auto;
 }
 
 
@@ -203,7 +203,8 @@ margin: auto;
 
 .contacticons {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   width: 15vmax;
   margin: auto;
   margin-top: 6vmax;
@@ -344,9 +345,20 @@ a:visited {
   padding: 10px;
 }
 
-.contact-all{
+.contact-all {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  margin: auto;
+}
+
+.contact-git,
+.contact-linked,
+.contact-mail {
   flex-direction: row;
   flex-wrap: wrap;
+  align-content: center;
+  margin: auto;
 }
 
 a.resume-icon:link,
