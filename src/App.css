@@ -354,14 +354,12 @@ a:visited {
   flex-direction: row;
   align-content: center;
   margin: auto;
-  width: 35%;
 }
 
 .contact-git,
 .contact-linked,
 .contact-mail {
   flex-direction: row;
-  flex-wrap: wrap;
   align-content: center;
   margin: auto;
 }
