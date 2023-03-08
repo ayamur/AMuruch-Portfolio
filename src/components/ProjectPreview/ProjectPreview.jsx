@@ -5,13 +5,13 @@ const ProjectPreview = (props) => {
 
   return (
 
-    <div class='all-preview'>
-      <div class='preview'>
+    <div className='all-preview'>
+      <div className='preview'>
         <>
           <img
             alt={props.title}
             src={props.image}
-            class='image-details'
+            className='image-details'
           />
           <section>
             <h3>

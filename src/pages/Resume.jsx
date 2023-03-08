@@ -4,8 +4,8 @@ function Resume() {
 
     <>
       <h1>1st Quarter 2023 Resume:</h1>
-      <div class='resume-all'>
-        <div class='resume-pg'>
+      <div className='resume-all'>
+        <div className='resume-pg'>
           <embed src='MuruchResume.pdf' type='application/pdf' id='resume' className='navbarbtn' />
           <br />
           <a href='MuruchResume.pdf' download='MuruchResume.pdf' id="downloadbtn" className='navbarbtn'>
@@ -14,8 +14,8 @@ function Resume() {
           <h2 id='references'>Feel Free to Request References!</h2>
         </div>
       </div>
-      <a href='#top' class='up'>
-        <img src='/jelly_up.png' alt='jellyfish with up arrow' class='jellyarrow' />
+      <a href='#top' className='up'>
+        <img src='/jelly_up.png' alt='jellyfish with up arrow' className='jellyarrow' />
       </a>
     </>
 

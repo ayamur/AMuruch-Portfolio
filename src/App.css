@@ -344,6 +344,11 @@ a:visited {
   padding: 10px;
 }
 
+.contact-all{
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 a.resume-icon:link,
 a.resume-icon:active,
 a.resume-icon:visited {
