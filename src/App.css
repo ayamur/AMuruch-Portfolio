@@ -231,6 +231,10 @@ button:active {
     inset 0 0 .75em .25em var(--glow-color);
 }
 
+.artexamples {
+  max-width: 250px;
+}
+
 #footer {
   margin: 100px 0 0 0;
   padding: 5px 0 0 0;
