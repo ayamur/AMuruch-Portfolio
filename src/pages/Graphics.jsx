@@ -14,7 +14,7 @@ const Graphics = () => {
       <a href='#top' className='up' alt='jellyfish and arrow'>
         <img src='/jelly_up.png' alt='jellyfish with up arrow' className='jellyarrow' />
       </a>
-      <h2>For further information about contracts, freelance projects, examples, or any other inquiries, <Link to='/contact'>click here for ways to contact me</Link></h2>
+      <h2>For further information about contracts, freelance projects, examples, or any other inquiries, <Link to='/contact'>click here for ways to contact me.</Link></h2>
     </>
   )
 }
