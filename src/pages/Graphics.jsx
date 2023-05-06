@@ -1,7 +1,7 @@
 function Graphics() {
   return (
     <>
-    <h1>Examples of Recent Graphics Commissions and Contributions:</h1>
+    <h1>Examples of Recent Graphics Commissions and Projects:</h1>
     <div id='grexamples'>
       <a href='/graphics/captainmothman_watermark.png'>
         <img src='/graphics/captainmothman_watermark.png' id='captainmothman' className='artexamples' alt='breakdancing captain mothman' />
@@ -28,6 +28,7 @@ function Graphics() {
         <img src='/graphics/hunterlogo_watermark.png' id='hunterlogo' className='artexamples' alt='occult influenced logo pertaining to the game New World' />
       </a>
       {/* <a href=''><img src='' id='' alt='' /></a> */}
+      <h2>For further information about contracts, freelance projects, examples, or any other inquiries, <a href='/contact'>click here for ways to contact me</a></h2>
     </div>
     </>
   )
