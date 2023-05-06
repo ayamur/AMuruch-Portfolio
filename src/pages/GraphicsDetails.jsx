@@ -9,13 +9,13 @@ const GraphicDetails = () => {
   return (
 
     <>
-      <div className='all-graphics'>
-        <div className='graphics'>
-          <img src={graphic.image} alt='graphics preview' className='graphics-image' />
-          <p className='graphics-desc'>{graphic.description}</p>
-          <div className='btn-graphics-div'>
-            <a href={graphic.link}>
-              <button className='btn-full'>
+      <div className='all-detail'>
+        <div className='details'>
+          <img src={graphic.image} alt='graphics preview' className='image-details' />
+          <p className='details-title-desc'>{graphic.description}</p>
+          <div className='btn-details-div'>
+            <a href={graphic.image}>
+              <button className='btn-details'>
                 Full Image
               </button>
             </a>
