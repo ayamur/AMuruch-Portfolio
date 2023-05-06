@@ -13,7 +13,7 @@ function About() {
             My life has been colorful and full of many unique opportunities of learning to thrive in varying situations, from teaching English overseas to all age groups, to serving as the graphic artist for a local non-profit while also growing into the role as their PR assistant. Even when I have narrowed my focus on adapting and improving in my personal life, that did not stop me from finding ways to help others when the opportunity arose. Whether through my hobby of research, last-minute costuming assistance, or simply as an accepting ear to someone else in the midst of a confusing life event, if I am able to help, I do.
           </p>
           <p>
-            I have already made progress on one of the biggest goals and changes in my life. I did my research and embarked on my current path of software engineering and web development to improve my own life in a way that honed my curiosity and drive to learn more. I never want to stop learning and growing and finding my place in the ever-evolving field of computers and technology while also utilizing my skills as an altruist, morale booster and seasoned artist
+            I have already made progress on one of the biggest goals and changes in my life. I did my research and embarked on my current path of software engineering and web development to improve my own life in a way that honed my curiosity and drive to learn more. I never want to stop learning and growing and finding my place in the ever-evolving field of computers and technology while also utilizing my skills as an altruist, morale booster and seasoned artist.
           </p>
           <h3>
             Hobbies include:

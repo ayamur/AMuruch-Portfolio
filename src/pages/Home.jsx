@@ -22,7 +22,7 @@ function Home() {
             <em>and I am a :</em>
           </h4>
           <h2>
-            Disabled Software Engineer Who is Passionate about Learning, Uplifting Others, and Everything Paranormal, with Professional Experience in Design, Non-Profits, and Game Testing!
+            Disabled and Neurodiverse Website Developer and Graphic Artist Who is Passionate about Learning, Uplifting Others, and Everything Paranormal, with Professional Experience in Design, Non-Profits, and Game Testing!
           </h2>
           <h4 className='homedivide'>
             <em>with skills in:</em>
@@ -145,7 +145,7 @@ function Home() {
           </div>
           <h4 className='homedivide'><em>and I am looking for:</em></h4>
           <div className='hometwo'>
-            <h2>A Remote Junior Software or Web Development Position in an Educational and Creative Environment where my Ideas, Enthusiasm, and Excitability can make a Positive Difference!</h2>
+            <h2>A FullyRemote Web or Software Development Internship Position, UX/UI, or Graphic Design/Art position in an Educational and Creative Environment where my Ideas, Enthusiasm, and Excitability can make a Positive Difference!</h2>
             <h6>(...and proof of supernatural phenomena.)</h6>
           </div>
         </div>
