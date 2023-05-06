@@ -24,7 +24,7 @@ function Graphics() {
       <a href='/graphics/universehandsfood_watermark.png'>
         <img src='/graphics/universehandsfood_watermark.png' id='handsfood' className='artexamples' alt='outer space hands presenting a plate with crossed utensils' />
       </a>
-      <a href='/graphics/universehandsfood_watermark.png'>
+      <a href='/graphics/hunterlogo_watermark.png'>
         <img src='/graphics/hunterlogo_watermark.png' id='hunterlogo' className='artexamples' alt='occult influenced logo pertaining to the game New World' />
       </a>
       {/* <a href=''><img src='' id='' alt='' /></a> */}
