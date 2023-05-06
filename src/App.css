@@ -232,7 +232,14 @@ button:active {
 }
 
 .artexamples {
-  max-width: 250px;
+  max-width: 425px;
+  padding: 5px;
+  margin: 5px;
+}
+
+#grexamples {
+  background-color: rgba(0, 0, 0, 0.33);
+
 }
 
 #footer {

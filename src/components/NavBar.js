@@ -30,11 +30,11 @@ function NavBar() {
           </button>
         </Link>
 
-        {/* <Link to='/graphics'>
+        <Link to='/graphics'>
           <button type='button' id='graphicssbtn' className='navbarbtn'>
             Graphics
           </button>
-        </Link> */}
+        </Link>
         
       </nav>
     </div>
