@@ -5,7 +5,7 @@ const GraphicsList = (props) => {
   return (
 
     <>
-      <div id='grexamples' className='artexamples'>
+      <div class='project-list'>
 
         {props.graphics.map((project) =>
           <GraphicPreview key={project.name} description={project.description} image={project.image} />
