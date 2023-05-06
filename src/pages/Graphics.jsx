@@ -1,7 +1,7 @@
 function Graphics() {
   return (
     <>
-    <h1>Examples of Recent Graphics Commissions:</h1>
+    <h1>Examples of Recent Graphics Commissions and Contributions:</h1>
     <div id='grexamples'>
       <a href='/graphics/captainmothman_watermark.png'>
         <img src='/graphics/captainmothman_watermark.png' id='captainmothman' className='artexamples' alt='breakdancing captain mothman' />
